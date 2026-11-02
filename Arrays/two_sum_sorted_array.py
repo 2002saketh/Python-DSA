@@ -6,7 +6,7 @@ def two_sum_sorted(arr,tar):
         
         if total==tar:
             return [left,right]
-        elif total<target:
+        elif total<tar:
             left+=1 
         else:
             right-=1 
